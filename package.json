@@ -1,0 +1,22 @@
+{
+  "name": "h-sus",
+  "version": "1.0.0",
+  "description": "Susanna Mod",
+  "main": "index.js",
+  "scripts": {
+    "format": "js-beautify -js -r -f ./h-sus/**/*.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CCDirectLink/h-sus.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/CCDirectLink/h-sus/issues"
+  },
+  "homepage": "https://github.com/CCDirectLink/h-sus#readme",
+  "devDependencies": {
+    "js-beautify": "^1.10.2"
+  }
+}
