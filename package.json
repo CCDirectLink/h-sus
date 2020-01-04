@@ -4,9 +4,10 @@
   "description": "Susanna Mod",
   "main": "index.js",
   "scripts": {
-    "format": "npm run minify-json && npm run js-beautify",
+    "format": "npm run minify-json && npm run json-beautify && npm run js-beautify",
     "minify-json": "minify-json ./h-sus/",
-    "js-beautify": "js-beautify -js -r -f ./h-sus/**/*.json"
+    "js-beautify": "js-beautify -js -q -r -f ./h-sus/**/*.js",
+    "json-beautify": "js-beautify -js -r -f ./h-sus/**/*.json"
   },
   "repository": {
     "type": "git",
