@@ -1,0 +1,113 @@
+{
+    "name": {
+        "en_US": "Susanna",
+        "de_DE": "Susanna",
+        "ko_KR": "수잔나",
+        "langUid": 1
+    },
+    "animSheet": {
+        "namedSheets": {
+            "move": {
+                "src": "media/entity/npc/guest/susanna.png",
+                "xCount": 1,
+                "offX": 0,
+                "offY": 0,
+                "width": 32,
+                "height": 40
+            }
+        },
+        "shapeType": "Y_FLAT",
+        "offset": {
+            "x": 0,
+            "y": -2,
+            "z": 0
+        },
+        "SUB": [{
+            "sheet": "move",
+            "dirs": "4",
+            "flipX": [0, 0, 0, 1],
+            "tileOffsets": [0, 1, 2, 1],
+            "SUB": [{
+                "name": "idle",
+                "time": 1,
+                "repeat": false,
+                "frames": [0]
+            }]
+        }],
+        "DOCTYPE": "MULTI_DIR_ANIMATION"
+    },
+    "walkAnimSet": {
+        "normal": {
+            "idle": "idle",
+            "move": "walk"
+        }
+    },
+    "walkAnims": "normal",
+    "configs": {
+        "normal": {
+            "relativeVel": 0.5
+        }
+    },
+    "face": {
+        "width": 168,
+        "height": 168,
+        "centerX": 78,
+        "centerY": 73,
+        "src": "guest/susa.png",
+        "subImages": {
+            "surprised": "guest/susaSurprised.png",
+            "whistling": "guest/susaWhistling.png"
+        },
+        "parts": [{
+            "normal": {
+                "srcX": 0,
+                "srcY": 0,
+                "width": 168,
+                "height": 168,
+                "destX": 0,
+                "destY": 0,
+                "subX": 0,
+                "subY": 0
+            },
+            "surprised": {
+                "srcX": 0,
+                "srcY": 0,
+                "width": 168,
+                "height": 168,
+                "destX": 0,
+                "destY": 0,
+                "subX": 0,
+                "subY": 0,
+                "img": "surprised"
+            },
+            "whistling": {
+                "srcX": 0,
+                "srcY": 0,
+                "width": 168,
+                "height": 168,
+                "destX": 0,
+                "destY": 0,
+                "subX": 0,
+                "subY": 0,
+                "img": "whistling"
+            }
+        }],
+        "expressions": {
+            "DEFAULT": {
+                "faces": [
+                    ["normal"]
+                ]
+            },
+            "SURPRISED": {
+                "faces": [
+                    ["surprised"]
+                ]
+            },
+            "WHISTLING": {
+                "faces": [
+                    ["whistling"]
+                ]
+            }
+        }
+    }
+}
