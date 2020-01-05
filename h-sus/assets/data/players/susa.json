@@ -1,0 +1,52 @@
+{
+    "type": "PLAYER",
+    "walkAnims": null,
+    "character": "main.susa",
+    "sheet": "player.susa",
+    "headIdx": 2,
+    "class": "QUADROGUARD",
+    "stats": {
+        "hp": {
+            "base": 200,
+            "increase": 2000,
+            "variance": 0.1
+        },
+        "attack": {
+            "base": 20,
+            "increase": 200,
+            "variance": 0.9
+        },
+        "defense": {
+            "base": 20,
+            "increase": 200,
+            "variance": 0.5
+        },
+        "focus": {
+            "base": 20,
+            "increase": 200,
+            "variance": 0.3
+        }
+    },
+    "combatStyle": {
+        "comboCount": 4,
+        "throwCount": 0,
+        "throwProb": 0,
+        "sidewaySpeed": 0,
+        "normDistance": 0,
+        "meleeDistance": 0,
+        "minDistance": 0,
+        "foodSprites": ["", "", ""]
+    },
+    "autoequip": null,
+    "DOCTYPE": "PLAYER",
+    "proxies": {},
+    "actions": {
+        "BASE": {},
+        "NEUTRAL": {},
+        "HEAT": {},
+        "COLD": {},
+        "SHOCK": {},
+        "WAVE": {}
+    },
+    "skillRanking": []
+}
