@@ -27,14 +27,14 @@
             "repeat": false,
             "frames": [1]
         }, {
-			"name": "walk",
-			"repeat": true,
-			"time": 0.133,
+            "name": "walk",
+            "repeat": true,
+            "time": 0.133,
             "frames": [0, 1, 2, 1]
-        },{
-			"name": "run",
-			"repeat": true,
-			"time": 0.133,
+        }, {
+            "name": "run",
+            "repeat": true,
+            "time": 0.133,
             "frames": [0, 1, 2, 1]
         }]
     }]
