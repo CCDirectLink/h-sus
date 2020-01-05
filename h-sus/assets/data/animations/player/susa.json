@@ -25,9 +25,9 @@
             "time": 0.1,
             "repeat": false,
             "frames": [1],
-            "SUB" : [{
+            "SUB": [{
                 "name": "preIdle"
-            },{
+            }, {
                 "name": "idle"
             }]
         }, {
