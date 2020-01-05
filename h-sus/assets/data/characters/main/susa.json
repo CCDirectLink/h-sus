@@ -5,42 +5,14 @@
         "ko_KR": "수잔나",
         "langUid": 1
     },
-    "animSheet": {
-        "namedSheets": {
-            "move": {
-                "src": "media/entity/npc/guest/susanna.png",
-                "xCount": 1,
-                "offX": 0,
-                "offY": 0,
-                "width": 32,
-                "height": 40
-            }
-        },
-        "shapeType": "Y_FLAT",
-        "offset": {
-            "x": 0,
-            "y": -2,
-            "z": 0
-        },
-        "SUB": [{
-            "sheet": "move",
-            "dirs": "4",
-            "flipX": [0, 0, 0, 1],
-            "tileOffsets": [0, 1, 2, 1],
-            "SUB": [{
-                "name": "idle",
-                "time": 1,
-                "repeat": false,
-                "frames": [0]
-            }]
-        }],
-        "DOCTYPE": "MULTI_DIR_ANIMATION"
-    },
     "walkAnimSet": {
-        "normal": {
+        "normal":  {
             "idle": "idle",
-            "move": "walk"
-        }
+            "move": "walk",
+            "run": "run",
+            "jump": "jump",
+            "fall": "fall"
+        },
     },
     "walkAnims": "normal",
     "configs": {
@@ -53,10 +25,10 @@
         "height": 168,
         "centerX": 78,
         "centerY": 73,
-        "src": "guest/susa.png",
+        "src": "lea.png",
         "subImages": {
-            "surprised": "guest/susaSurprised.png",
-            "whistling": "guest/susaWhistling.png"
+            "surprised": "lea.png",
+            "whistling": "lea.png"
         },
         "parts": [{
             "normal": {
