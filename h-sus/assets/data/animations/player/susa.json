@@ -21,19 +21,24 @@
         "dirs": 8,
         "flipX": [0, 0, 0, 0, 0, 0, 1, 0],
         "tileOffsets": [0, 3, 6, 9, 12, 15, 6, 18],
-        "repeat": true,
         "SUB": [{
-            "name": "idle",
-            "time": 1,
-            "frames": [1]
+            "time": 0.1,
+            "repeat": false,
+            "frames": [1],
+            "SUB" : [{
+                "name": "preIdle"
+            },{
+                "name": "idle"
+            }]
         }, {
-            "name": "walk",
+            "repeat": true,
             "time": 0.133,
-            "frames": [0, 1, 2, 1]
-        }, {
-            "name": "run",
-            "time": 0.05,
-            "frames": [0, 1, 2, 1]
+            "frames": [0, 1, 2, 1],
+            "SUB": [{
+                "name": "walk"
+            }, {
+                "name": "run"
+            }]
         }]
     }]
 }
