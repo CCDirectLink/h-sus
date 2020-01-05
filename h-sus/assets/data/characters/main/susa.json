@@ -6,13 +6,13 @@
         "langUid": 1
     },
     "walkAnimSet": {
-        "normal":  {
+        "normal": {
             "idle": "idle",
             "move": "walk",
             "run": "run",
             "jump": "jump",
             "fall": "fall"
-        },
+        }
     },
     "walkAnims": "normal",
     "configs": {
